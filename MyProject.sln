@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Application", "My
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Utilities", "MyProject.Utilities\MyProject.Utilities.csproj", "{7737E00E-378F-41D3-A805-8B4893C89AB4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4217E2A3-F778-4FED-916F-8A60F4E61174}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E4EEC23C-9578-4954-89CF-541D85938844}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{83871B3E-BD85-49E7-AE7B-0BDA9AAAFB38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +48,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D4B85AB-9C22-460E-A168-AA6079FA8FB0} = {4217E2A3-F778-4FED-916F-8A60F4E61174}
+		{AE35FC5E-E1C6-43D2-A28B-F6DD3DBCE7D8} = {4217E2A3-F778-4FED-916F-8A60F4E61174}
+		{55A06679-79F1-49DA-BC2E-DB6A3A1F8431} = {4217E2A3-F778-4FED-916F-8A60F4E61174}
+		{B7E42FF9-D21B-46B3-861E-AED558BEE07B} = {4217E2A3-F778-4FED-916F-8A60F4E61174}
+		{7737E00E-378F-41D3-A805-8B4893C89AB4} = {4217E2A3-F778-4FED-916F-8A60F4E61174}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0759B77F-D8BD-4BC7-B727-DD4C76E33896}
